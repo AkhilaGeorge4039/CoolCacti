@@ -1,0 +1,62 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: http://localhost/CoolCacti/
+Template: hello-elementor
+Author: Akhila George
+Author URI: http://localhost/CoolCacti/
+Description: A child theme of Hello Elementor theme.
+Version: 1.1.1708791464
+Updated: 2024-02-24 16:17:44
+
+*/
+
+#site-header {
+	padding: 20px 0;
+	z-index: 1;
+}
+
+input[type=text], select, textarea, #homeSearch form input {
+  width: 100%;
+  padding: 12px;
+	border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#homeSearch h5 {
+	font-family: "Georgia", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+	text-align: center;
+}
+
+#homeSearch form input {
+	border: 2px solid #2E3105;
+	border-radius: 30px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	font-family: 'Castoro';
+  	font-size: 18px;
+  	padding: 25px 50px;
+}
+
+#homeSearch form button {
+	background-color: #2E3105;
+  	border: 2px solid #2E3105;
+	border-radius: 30px;
+  	color: #fff;
+  	font-family: 'Castoro';
+ 	font-size: 18px;
+ 	padding: 25px 50px;
+}
+#homeSearch form button:hover {
+	background-color: #fff;
+    border: 2px solid #2E3105;
+    border-radius: 30px;
+	color: #2E3105;
+    padding: 25px 50px;
+}
